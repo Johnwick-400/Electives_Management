@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    
+    
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./style.css" />
+   
+      
+      
+      
+  </head>
+  <body>
+    
+      <i class='bx bx-menu menu_bar' onclick="sidebar()" ></i>
+   
+    
+    <div class="nav_bar">
+        <h1>
+          <em  style="color: #083F78; font-style: normal;">G</em><em  style="color: #EE232B; font-style: normal;">M</em><em  style="color: #F09E1C; font-style: normal;">R</em><em  style="color: #EE232B; font-style: normal;">I</em><em  style="color: #083F78; font-style: normal;">T</em>
+        </h1>
+        <div class="nav_bar_1">
+            <a href="./index.html">HOME</a>
+            <a href="./depeartment.html">Department</a>
+          
+            <a href="./courses.html">Course</a>
+            <a href="./help.html">Help</a>
+            <a class="login" href="./login.html" target="_top">Admin LogIn</a>
+            <a href="./student.html">Student LogIn</a>
+        </div>
+    </div>
+    <div class="menu_one">
+      <i class='bx bx-x cross' onclick="sideba_1()" ></i>
+      <a  class=" home" href="./login.html">Admin Log In</a>
+      <a  class=" home" href="./student.html">Student Log </a>
+      <a  class=" home" href="">department</a>
+      <a  class=" home" href="">course</a>
+      <a  class=" home" href="">HOME</a>
+      <a  class=" home" href="">help</a>
+      
+  
+</div>
+    <div class="main">
+      <div class="page_1">
+        <div class="heading">
+          
+            <div class="courser"></div>
+          <h1 class="parent_em_1">
+            <em>E</em><em>l</em><em>e</em><em>c</em><em>t</em><em>i</em
+            ><em>v</em><em>e</em>
+          </h1>
+
+          <h1 class="parent_em">
+            <em class="anything_em">C</em><em>o</em><em>u</em><em>r</em
+            ><em>s</em><em>e</em>
+          </h1>
+        </div>
+      </div>
+      
+    </div>
+    
+   <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="./code.js"></script>
+    <script>
+      function sidebar(){
+        const sidebar=document.querySelector('.menu_one')
+        sidebar.style.display="block"
+
+      }
+      function sideba_1(){
+        const sidebar=document.querySelector('.menu_one')
+        sidebar.style.display="none"
+
+      }
+    </script>
+  </body>
+</html>
