@@ -21,7 +21,8 @@ To address this issue, we have developed a web application that allows college a
 - Database: mysql
 
 ## Demo
-![Screenshot 2024-04-12 210548](https://github.com/Johnwick-400/Electives_Management/assets/98897594/77b769b3-106b-486e-8fa3-6cfc123675d4)
+
+![Screenshot 2024-04-12 210450](https://github.com/Johnwick-400/Electives_Management/assets/98897594/73fdfc33-c565-49b3-afd6-a6b29958a675)
 
 
 
