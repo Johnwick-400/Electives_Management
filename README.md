@@ -23,7 +23,8 @@ To address this issue, we have developed a web application that allows college a
 ## Demo
 
 
-![Screenshot 2024-04-12 210713](https://github.com/Johnwick-400/Electives_Management/assets/98897594/2ff015c8-022d-4c4c-817c-980bd5471949)
+![Screenshot 2024-04-12 210435](https://github.com/Johnwick-400/Electives_Management/assets/98897594/48d21370-9b0a-441c-87c7-f6c469bcd796)
+
 
 
 
